@@ -1,0 +1,129 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 01-jun-2017, 10:38:28
+    Author     : fran
+*/
+@font-face {
+    font-family: mistral;
+    src: url(/fonts/MISTRAL.ttf);
+}
+
+@font-face {
+    font-family: gabriola;
+    src: url(/fonts/gabriola.woff);
+}
+
+
+body{
+    font: 250% gabriola;
+}
+
+.enlacedesplegable{
+    
+    font: 150% gabriola;
+    color: #2e3436;
+}
+
+form input{
+    font-family: Arial; 
+    font-size: 8pt;
+}
+
+form button{
+    font-family: Arial; 
+    font-size: 8pt;
+}
+
+#botonautocompletar{
+    font: 70% gabriola;
+}
+
+#divtitulo{
+    background-image: url('http://dominiodawfran.esy.es/fondo.jpg');
+    color: #2e3436;
+    height: 100px;
+}
+#divtitulo h1{
+    font: 170% mistral;
+    padding-top: 25px;
+    text-align: center;
+    color: #2e3436;
+    size: 70%;
+}
+
+#contenedorpie p{
+    display: inline-block;
+    margin: 80px;
+}
+
+.botonordenar{
+    margin: 10px;
+}
+
+#panel{
+    width: 1200px;
+    margin-left: 100px;
+    padding-bottom: 30px;
+}
+
+.contenedorproductos{
+    display: inline-block; 
+    margin:60px; 
+    text-align: center;
+}
+
+.contenedorimagen{
+    width: 250px;
+    height: 250px; 
+    margin-bottom: 20px;
+}
+
+.contenedorimagen img{
+    margin-left: 30px;
+}
+
+.contenedorprecio{
+    margin-bottom: -20px;
+    text-decoration:line-through;
+}
+
+.contenedorpreciopromo{
+    margin-bottom: -15px;
+}
+
+.divproductos{
+    text-align: center;
+    margin-top: -60px;
+}
+
+#divproducto{
+    text-align: center;
+}
+
+#titulodestacados{
+    font: 130% mistral;
+    text-align: center;
+    margin-bottom: -30px;
+    margin-top: -30px;
+}
+
+
+
+
+
+#divmapa{
+    height: 800px;
+}
+#productosencontradosmapa{
+    height: 800px; 
+    text-align: center;
+}
+#mapageo{
+    height: 600px; 
+    width: 600px;
+    margin-left: 280px;
+}
